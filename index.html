@@ -5,7 +5,7 @@
   <title>Service NSW</title>
   <meta
     name="viewport"
-    content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
   />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,20 +15,19 @@
       margin: 0;
       background-color: #000;
       overflow: hidden;
-      touch-action: manipulation;
     }
     iframe {
       border: none;
+      /* Using vw/vh forces it to match the screen glass exactly */
       width: 100vw;
       height: 100vh;
       display: block;
-      pointer-events: auto;
     }
   </style>
 </head>
 <body>
   <iframe 
-    src="https://cloud.protopie.io/p/46eeeba1fd4d0df5f9b8f921?ui=false&scaleToFit=false&enableHotspotHints=false&cursorType=touch&mockup=false&bgColor=%23F5F5F5&bgImage=undefined&playSpeed=1"
+    src="https://cloud.protopie.io/p/46eeeba1fd4d0df5f9b8f921?ui=false&scaleToFit=true&enableHotspotHints=false&cursorType=touch&mockup=false&bgColor=%23F5F5F5&bgImage=undefined&playSpeed=1"
   ></iframe>
 </body>
 </html>
